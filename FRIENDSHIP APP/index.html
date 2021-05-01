@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>FRIENDSHIP APP</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <img src="image/menu-icon-2.png" class="menu-icon" alt="">
+            <p>FRIENDSHIP APP</p>
+            <img src="image/bell-2.png" class="bell-icon" alt="">
+        </div>
+
+          <div class="main-text">
+              <h2>MY FRIENDS</h2>
+              <small>This app has created for me only for my friends. So my dear friends. Let me know how this approaches made me know. Thank you <br> for all my friends. to see my apps <br> to visit this apps.
+            </small><br>
+          </div>
+
+<!-- swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"> <img src="image/1.jpg" alt=""> <div class="info"> <h3>Saimum Hasan</h3> <p>Student Of MPI   </p> <a href="https://youtu.be/aQMHZWTMVrc">Contatact</a> </div> </div>
+        <div class="swiper-slide"> <img src="image/2.jpg" alt=""> <div class="info"> <h3>Saimum Hasan</h3> <p>Student Of MPI  </p> <a href="https://youtu.be/Ui3U2MNTGyI">Contatact</a> </div>  </div>
+        <div class="swiper-slide"> <img src="image/3.jpg" alt=""> <div class="info"> <h3>Saimum Hasan</h3> <p>Student Of MPI  </p> <a href="https://youtu.be/pN7Iz5gmeAY">Contatact</a> </div>  </div>
+        <div class="swiper-slide"> <img src="image/4.jpg" alt=""> <div class="info"> <h3>Saimum Hasan</h3> <p>Student Of MPI  </p> <a href="https://youtu.be/T3rGBSVKjWE">Contatact</a> </div>  </div>
+        <div class="swiper-slide"> <img src="image/5.jpg" alt=""> <div class="info"> <h3>Saimum Hasan</h3> <p>Student Of MPI  </p> <a href="https://youtu.be/6jANPf6SU34">Contatact</a> </div>  </div>
+       </div>
+       <!--add pagination-->
+      <div class="swiper-pagination"></div>
+    </div>
+           
+
+          <div class="footer-menu">
+              <img src="image/home-2.png" alt="">
+              <img src="image/search-2.png" alt="">
+              <img src="image/user-2.png" alt="">
+              <img src="image/undo-2.png" alt="">
+          </div>
+
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <!-- inter swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto',
+            spaceBetween: 40,
+            centeredSlides: true,
+            grabCursor:true,
+            loop: true,
+            pagination: {
+             el: '.swiper-pagination',
+             clickable: true,
+            },
+        });
+    </script>
+
+</body>
+</html>
